@@ -7,8 +7,8 @@ from __future__ import unicode_literals
 
 import os
 
-AUTHOR = '40423247'
-SITENAME = '2015FALL 40423247 CPB 作業'
+AUTHOR = 'KMOL'
+SITENAME = '2015FALL KMOL 課程'
 SITEURL = ''
 
 PATH = 'content'
@@ -26,16 +26,16 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
-         ('Python', 'http://python.org/'),('2015作業主頁', '../../'),('個人倉儲','http://40423247.github.io/cpwb'))
-)
+         ('Python', 'http://python.org/'),
+         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
-          ('github', 'http://github.com/ametaireau'),)
-          
+SOCIAL = (('You can add links in your config file', '#'),
+          ('Another social link', '#'),)
+
 DEFAULT_PAGINATION = 10
 
-SITEURL = 'http://coursemdetw.github.io/reveal'
+SITEURL = 'http://example.com'
 RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -46,13 +46,5 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
-DISQUS_SITENAME = "2015fall"
+DISQUS_SITENAME = "2015Fall"
 #GOOGLE_ANALYTICS = ""
-
-# 必須絕對目錄或相對於設定檔案所在目錄
-PLUGIN_PATHS = ['./../../../plugin']
-PLUGINS = ['liquid_tags.notebook']
-# 目錄設定相對於 reveal 下的 content 目錄
-NOTEBOOK_DIR = 'notebook'
-
-
