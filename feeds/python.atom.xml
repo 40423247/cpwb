@@ -752,12 +752,16 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;p&gt;註腳會連結到這裡.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業一</title><link href="http://example.com/40423247cpb_hw_w1.html" rel="alternate"></link><updated>2015-09-18T10:34:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:example.com,2015-09-18:40423247cpb_hw_w1.html</id><summary type="html">&lt;p&gt;以下為作業一內容&lt;/p&gt;
+&lt;/div&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 期末心得</title><link href="http://example.com/16cpb_hw_w1.html" rel="alternate"></link><updated>2015-09-18T10:34:00+08:00</updated><author><name>40423247</name></author><id>tag:example.com,2015-09-18:16cpb_hw_w1.html</id><summary type="html">&lt;p&gt;以下為期末心得內容&lt;/p&gt;
+&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
+&lt;iframe src="40423247_11223322.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423247_11223322.html" target="_blank"&gt;期末心得投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業一</title><link href="http://example.com/40423247cpb_hw_w1.html" rel="alternate"></link><updated>2015-09-18T10:34:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:example.com,2015-09-18:40423247cpb_hw_w1.html</id><summary type="html">&lt;p&gt;以下為作業一內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="40423247_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423247_cp_w1_p.html" target="_blank"&gt;作業一投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 期末心得</title><link href="http://example.com/%E6%9C%9F%E6%9C%AB%E5%BF%83%E5%BE%97cpb_hw_w1.html" rel="alternate"></link><updated>2015-09-18T10:34:00+08:00</updated><author><name>40423247</name></author><id>tag:example.com,2015-09-18:期末心得cpb_hw_w1.html</id><summary type="html">&lt;p&gt;以下為期末心得內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423247_期末心得.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40423247_11223322.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423247_期末心得.html" target="_blank"&gt;期末心得投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>

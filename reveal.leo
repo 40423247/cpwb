@@ -50,7 +50,7 @@
 <v t="leo.20160115040215.1"><vh>@edit 40423247_cp_w13.md</vh></v>
 <v t="leo.20160115040220.1"><vh>@edit 40423247_cp_w14.md</vh></v>
 <v t="leo.20160115040225.1"><vh>@edit 40423247_cp_w15.md</vh></v>
-<v t="123.20160115135112.1"><vh>@edit 40423247_期末心得.md</vh></v>
+<v t="123.20160115135112.1"><vh>@edit 40423247_cp_w16.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="leo.20160115040450.1"><vh>@edit 40423247_cp_w1_p.html</vh></v>
@@ -66,7 +66,7 @@
 <v t="leo.20160115040549.1"><vh>@edit 40423247_cp_w12_p.html</vh></v>
 <v t="leo.20160115040555.1"><vh>@edit 40423247_cp_w13_p.html</vh></v>
 <v t="leo.20160115040601.1"><vh>@edit 40423247_cp_w14_p.html</vh></v>
-<v t="leo.20160115040607.1"><vh>@edit 40423247期末心得p.html</vh></v>
+<v t="leo.20160115040607.1"><vh>@edit 4042324711223322p.html</vh></v>
 <v t="123.20160115140916.1"><vh>.html</vh></v>
 <v t="leo.20151012204056.2" a="E"><vh>Recovered Nodes</vh>
 <v t="leo.20151012204056.3"><vh>Recovered node "html 標註" from @clean simplest.html</vh>
