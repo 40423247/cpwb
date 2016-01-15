@@ -35,7 +35,7 @@
 </v>
 <v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh></v>
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
-<v t="amd.20150919114010.1"><vh>@path pelican\content</vh>
+<v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
 <v t="leo.20160115040050.1"><vh>@edit 40423247_cp_w1.md</vh></v>
 <v t="leo.20160115040112.1"><vh>@edit 40423247_cp_w2.md</vh></v>
 <v t="leo.20160115040121.1"><vh>@edit 40423247_cp_w3.md</vh></v>
@@ -50,6 +50,7 @@
 <v t="leo.20160115040215.1"><vh>@edit 40423247_cp_w13.md</vh></v>
 <v t="leo.20160115040220.1"><vh>@edit 40423247_cp_w14.md</vh></v>
 <v t="leo.20160115040225.1"><vh>@edit 40423247_cp_w15.md</vh></v>
+<v t="123.20160115135112.1"><vh>@edit 40423247_期末心得.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="leo.20160115040450.1"><vh>@edit 40423247_cp_w1_p.html</vh></v>
@@ -65,7 +66,8 @@
 <v t="leo.20160115040549.1"><vh>@edit 40423247_cp_w12_p.html</vh></v>
 <v t="leo.20160115040555.1"><vh>@edit 40423247_cp_w13_p.html</vh></v>
 <v t="leo.20160115040601.1"><vh>@edit 40423247_cp_w14_p.html</vh></v>
-<v t="leo.20160115040607.1"><vh>@edit 40423247_cp_w15_p.html</vh></v>
+<v t="leo.20160115040607.1"><vh>@edit 40423247期末心得p.html</vh></v>
+<v t="123.20160115140916.1"><vh>.html</vh></v>
 <v t="leo.20151012204056.2" a="E"><vh>Recovered Nodes</vh>
 <v t="leo.20151012204056.3"><vh>Recovered node "html 標註" from @clean simplest.html</vh>
 <v t="leo.20151012204056.4"><vh>old:html 標註</vh></v>
@@ -74,6 +76,80 @@
 </v>
 </vnodes>
 <tnodes>
+<t tx="123.20160115140916.1">@language html
+&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;40423247-15&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;zero to hero python教學&lt;/h1&gt;
+    &lt;p&gt;40423247劉俊成&lt;/p&gt;		
+&lt;/section&gt;
+	
+&lt;section id="hw-task-five"&gt;
+    &lt;h1&gt;作業十四&lt;/h1&gt;
+    &lt;p&gt;&lt;/p&gt;   
+&lt;/section&gt;
+ 
+&lt;section&gt;
+&lt;h1&gt;分組報告問題1&lt;/h1&gt;
+Q:目前已經熟悉的 Python3 指令及語法有哪些? 請舉例說明.
+A:list =&gt;數列
+    tuple =&gt;元祖
+    for =&gt;重複迴圈
+    fonction =&gt;函式
+    for i in range (10)=&gt;讓它跑十次
+    input =&gt;輸入
+    string =&gt;字串
+    float =&gt;浮點數
+    integer =&gt;整數
+    if,while =&gt;邏輯判斷
+  &lt;/section&gt;
+  
+  &lt;section&gt;
+&lt;h1&gt;聖誕節&lt;/h1&gt;
+祝大家聖誕快樂。
+  &lt;/section&gt;
+  
+&lt;section&gt;
+&lt;h1&gt;心得與自評&lt;/h1&gt;
+第十五周了。我又學會了一個程式，好棒喔。自評:72分。
+&lt;/section&gt; 
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+&lt;/body&gt;
+
+</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
